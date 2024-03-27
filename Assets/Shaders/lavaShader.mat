@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: water shader mat
+  m_Name: lavaShader
   m_Shader: {fileID: -6465566751694194690, guid: 1dfc8d7561914a4479644a41fb91e70a,
     type: 3}
   m_Parent: {fileID: 0}
@@ -174,9 +174,9 @@ Material:
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
-    - _FoamDensety: 40
-    - _FoamSpeed: 1.7
-    - _FoamThikness: 10
+    - _FoamDensety: 77
+    - _FoamSpeed: 0.9
+    - _FoamThikness: 7
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
@@ -252,9 +252,10 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _flowSpeed: 0.1
+    - _flowSpeed: 0.2
+    - _maxHight: 0.29
     - _waveHight: 0.04
-    - _waveSpread: 5
+    - _waveSpread: 2
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
@@ -264,8 +265,8 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
-    - _FlowDirection: {r: 0.1, g: 0.1, b: 0, a: 0}
-    - _FoamColour: {r: 0.7861634, g: 0.9123153, b: 0.9433962, a: 0}
+    - _FlowDirection: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _FoamColour: {r: 1, g: 0.622092, b: 0, a: 0}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
@@ -274,10 +275,10 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
-    - _waterColour: {r: 0.078431346, g: 0.41345686, b: 0.9058824, a: 0}
+    - _waterColour: {r: 0.106918216, g: 0.07790602, b: 0.009750392, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1448640327399347832
+--- !u!114 &2873826212541621773
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
